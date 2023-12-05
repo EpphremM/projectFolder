@@ -1,0 +1,360 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+ 
+    
+}
+.header{
+    min-height:100vw;
+    width:100%;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3),url(/images/cut\ \(12\).jpg));
+    background-image:url(/images/cut\ \(17\).jpg);
+    background-position:center;
+    background-size:cover;
+   
+
+}
+nav{
+   
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20px 7%;
+   
+}
+.logo{
+  
+    cursor:pointer;
+  
+}
+
+.nav-links li{
+    list-style: none;
+    display:inline-block ;
+    margin:10px 30px;
+   
+}
+.nav-links li a{
+    display:inline-block ;
+    text-decoration: none;
+    color:white;
+  
+}
+.registerbtn{
+
+    background-color:white;
+    color:black;
+    padding:8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size:14px;
+}
+.container{
+    padding:0 7%;
+}
+.header h1{
+
+    font-size:4vw;
+    font-weight: 500;
+    color:white;
+    text-align:center;
+    padding-top:22%;
+}
+.search-bar{
+    background-color: #fff;
+    width:70%;
+    margin:30px auto;
+    padding:6px 10px 6px 30px;
+    border-radius:50px;
+}
+.search-bar form{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.search-bar form input{
+display:block;
+border:0;
+outline:none;
+background:transparent;
+
+}
+.search-bar form button{
+    background:#ff5461;
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    border:0;
+}
+.search-bar form button img{
+    width:15px;
+   margin-top:7px;
+}
+.location-input{
+flex:1;
+}
+.search-bar label{
+    font-weight: 600;
+}
+.subtitle
+{
+    margin:50px;
+    font-size: 2.5vw;
+    font-weight: 500;
+    color:#333;
+}
+.exclusives{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+grid-gap:30px;
+}
+.exclusives div img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.exclusives span{
+    /* position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center; */
+    color:black;
+}
+.trending{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    grid-gap:30px;
+    margin-bottom:30px;
+}
+.trending div img{
+    width:100%;
+    border-radius: 10px;
+}
+.trending h3{
+    font-weight: 300;
+    margin-top: 20px;
+}
+.cta{
+    margin:80px 0;
+    background:linear-gradient(to right,#3f2321,transparent);
+    background-image:url(/images/cut\ \(11\).jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding:5%;
+    color:#fff;
+}
+.cta h3{
+    font-size: 3vw;
+    line-height: 5.3vw;
+    font-weight: 300;
+    margin:1%;
+    
+}
+.cta .ctabtn{
+    background-color: #ff5361;
+    color:#fff;
+    text-decoration: none;
+    padding:12px 30px;
+    border-radius:8px;
+    margin-top:20px;
+    display:inline-block;
+
+}
+.stories{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    grid-gap:30px;
+    margin-bottom:30px;
+}
+.stories div img{
+    width:100%;
+    border-radius: 10px;
+}
+.stories div {
+    font-size:20px;
+
+}
+.startbtn{
+    text-decoration: none;
+    background-color: #cf372c;
+    color:#fff;
+    width:80%;
+    max-width:350px ;
+    display: block;
+    text-align: center;
+    margin:60px auto;
+    padding:14px;
+    border-radius:30px ;
+    font-size: 20px;
+}
+.aboutmsg{
+    color:#333;
+    font-size: 17px;
+    font-style: italic;
+}
+.aboutmsg h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 500px;
+    text-align:center;
+}
+.footer-links{
+
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,2fr));
+    list-style: none;
+    flex-wrap:wrap;
+    margin-top:3%;
+    background-color: #fff;
+    width:100%;
+    height:10vh;
+ 
+}
+.footer-links a{
+    text-decoration: none;
+    color:#b72363;
+    font-size: 23px;
+}
+.horline{
+    width:100%;
+    border-width: 1px;
+    color:black;
+}
+.copy{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.icons{
+    display:flex;
+    align-items: center;
+justify-content: center;
+    height:10vh;
+}
+.fa-brands{
+    margin:2%;
+}
+.active{
+    position:relative;
+}
+.active::after{
+    content:' ';
+    background:#fff;
+    height:2px;
+    width:25px;
+    position:absolute;
+    left:50%;
+    transform:translatex(-50%);
+    bottom:3px;
+    top:20px;
+    border-radius:2px;
+}
+.menu img{
+    width:25px;
+    height:25px;
+    border:none;
+}
+nav .fa-bars{
+    display:none;
+
+}
+@media only screen and (max-width:700px)
+{
+    .logo{
+        position:fixed;
+        top:4%; 
+        left: 7%;
+    }
+    nav ul{
+        display:grid;
+    }
+    nav{
+        position:fixed;
+        top:0;
+        z-index:100%;
+        display:inline-block;
+        width:100%;
+        padding:100px 7% 0;
+        background-color:#000;
+      text-align:center;
+      margin-bottom: 1%;
+      max-height: 10px;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    nav .registerbtn{
+display: inline-block;
+margin: 15px 0 30px;
+    }
+    nav .fa-bars{
+    display:block;
+    color:white;
+    position:fixed;
+    top:4%;
+    right:7%;
+    font-size:28px;
+    
+    }
+    .container h1{
+        padding-top: 200px;
+        font-size:7vw;
+    }
+    .search-bar{
+        width:90%;
+        margin:30px auto;
+        padding:20px 10px 30px;
+        border-radius: 5px; 
+    }
+    .search-bar form{
+        display:block;
+    }
+    .search-bar form input{
+        border-bottom: 1px solid #ddd;
+        width:10%;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        width:80%;
+    }
+    .search-bar form button{
+    
+        bottom:0;
+        left:50%;
+    }
+    .subtitle{
+        font-size: 6vw;
+        font-weight: bold;
+    }
+    .cta{
+        padding:15% 5%;
+    }
+    .cta h3{
+        font-size: 7vw;
+        line-height: 8vw;
+    }
+  .cta p{
+    font-size: 14px;
+  }
+  .ctabtn{
+    padding:6px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .stories p{
+    font-size: 20px;
+  }
+  .aboutmsg{
+    font-size: 15px;
+  }
+  .header{
+    padding-bottom: 100px;
+  }
+  .footer-links{
+margin-top: 10%;
+  }
+}
